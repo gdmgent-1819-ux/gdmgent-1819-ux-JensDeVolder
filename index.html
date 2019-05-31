@@ -5,8 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eindopdracht UX</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+    </style>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    <header class="headerkader">
+        <div class="header row">
+            <div class="headerkader_logo col-3">
+                <div class="menubalk_logo"></div>
+            </div>
+            <div class="headerkader_menubalk col-9"> 
+                    <ul class="menubalk_nav">
+                        <li class="listItem listItem1"><a class="link" href="#">Home</a></li>
+                        <li class="listItem listItem2"><a class="link" href="#">Help</a></li>
+                        <li class="listItem listItem3"><a class="link" href="#">Registreren</a></li>
+                        <li class="listItem listItem4"><a class="link" href="#">Inloggen</a></li>
+                    </ul>
+                    <div class="Logo_smallDevice"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="startscherm">
+        <div class="startscherm_leeg row"></div>
+        <div class="startscherm_zoekbalk row">
+            <div class="zoekbalk_leeg col-2"></div>
+            <div class="zoekbalk_invulbalk col-8">
+                <div class="title1 allList">
+                    <h1 class="title">Aankomst</h1>
+                    <input class="title_data" type="date">
+                </div>
+                <div class="title2 allList">
+                    <h1 class="title">Vertrek</h1>
+                    <input class="title_data" type="date">
+                </div>
+                <div class="title3 allList">
+                    <h1 class="title">Locatie</h1>
+                    <input class="title_tekst" type="text">
+                </div>
+                <div class="title4">
+                    <button class="zoekbalk_button"></button>
+                </div>
+            </div>
+            <div class="zoekbalk_leeg col-2"></div>
+        </div>
+        <div class="startscherm_meer row">
+            <div class="meer col">
+                <div class="meer_logo"><a href="suggestieblok"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suggestie1 row ">
+        <div class="suggestie1_leeg1 col-3"></div>
+        <div class="soort_vakantie col-6">
+            <h2 class="naam1">Soort vakantie</h2>
+            <div class="cards row">
+                <div class="col-3">
+                    <div class="card card1_1"><p class="card_tekst">Feesten</p></div>
+                </div>
+                <div class="col-3">
+                    <div class="card card1_2"><p class="card_tekst">Cultuur</p></div>
+                </div>
+                <div class="col-3">
+                    <div class="card card1_3"><p class="card_tekst">Rusten</p></div>
+                </div>
+                <div class="col-3">
+                    <div class="card card1_4">
+                        <p class="card_tekst">Strand</p>
+                        <div class="card_next">
+                            <p class="arrow"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="suggestie1_leeg2 col-3"></div>
+    </div>
+
+    <div id="suggestieblok" class="suggestie2 row ">
+            <div class="suggestie2_leeg1 col-3"></div>
+            <div class="Aanbevolen plaatsen col-6">
+                <h2 class="naam2">Aanbevolen plaatsen</h2>
+                <div class="cards row">
+                    <div class="col-3">
+                        <div class="card card2_1"><p class="card_tekst">New York</p></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card card2_2"><p class="card_tekst">Parijs</p></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card card2_3"><p class="card_tekst">Rome</p></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card card2_4">
+                            <p class="card_tekst">Tokyo</p>
+                            <div class="card_next">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestie2_leeg2 col-3"></div>
+    </div>
+
+    <div class="border col">
+        <div class="border1 row">
+            <div class="border1_leeg1 col-3"></div>
+            <div class="e-mail_tekstkader col-3">
+                <p class="e-mail_tekst1">Blijf je graag up-to-date?</p> 
+                <p class="e-mail_tekst2">Meld je aan op onze nieuwsbrief!</p>
+            </div>
+            <div class="e-mail_kaderkader col-3">
+                <input type="tekst" class="e-mail_kader">
+                <button class="e-mail_button">Meld aan</button>
+            </div>
+            <div class="border1_leeg2 col-3"></div>
+        </div>
+        <div class="border2 row">
+            <div class="border2_leeg1 col-3"></div>
+            <div class="taalkader col-4">
+                <p class="taal">Taal</p>
+                <input type="tekst" value="Nederlands">
+                <p class="sociale_media">Volg ons ook op onze sociale media platvormen</p>
+                <div class="sm_logo">
+                    <img class="logos logo1" src="assets/Photo/Social media/facebook-logo-button kopie.png">
+                    <img class="logos logo2" src="assets/Photo/Social media/twitter-logo-button kopie.png">
+                    <img class="logos logo3" src="assets/Photo/Social media/instagram kopie.png">
+                    <img class="logos logo4" src="assets/Photo/Social media/pinterest-logotype-circle kopie.png">
+                </div>
+            </div>
+            <div class="service col-2">
+                <p class="service_titel">Service</p>
+                <p class="vraag service_vraag1">Heb je vragen?</p>
+                <p class="vraag service_vraag2">Contact</p>
+                <p class="vraag service_vraag3">Hotel aanmelden</p>
+            </div>
+            <div class="border2_leeg2 col-3"></div>
+        </div>
+    </div>
+
+    <div class="einde row">
+        <img class="einde_logo" src="assets/Photo/LogoDefi.png" alt="image">
+    </div>
 </body>
 </html>

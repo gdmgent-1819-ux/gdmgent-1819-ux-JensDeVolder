@@ -3,7 +3,7 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: rgba(121, 82, 199, 1);
 
   /**
    * Layout
@@ -13,8 +13,8 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-primary: Open sans-serif;
+  --t-secondary: open sans-serif;
   --t-tertiary: monospace;
 
   --t-headline: var(--t-primary);
